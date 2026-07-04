@@ -1,14 +1,9 @@
 # world_cup
+Simulator for FIFA World Cup based on team ratings from https://eloratings.net
 
-A simulator for the FIFA World Cup based on team ratings from [Elo Ratings](https://eloratings.net).
 
----
+Example output for 100,000 case MC starting in the Round of 16:
 
-## Example Output
-
-Below is an example output for a **100,000 case Monte Carlo (MC) simulation** starting in the Round of 16.
-
-```text
 --> Optimized lookup cache created for 88 pre-played matches.
 
 Select Simulation Execution Engine:
@@ -20,9 +15,9 @@ Enter choice:
 Initializing parallel pool using 12 CPU cores...
 Running 100,000 Monte Carlo Simulations...
 
-#####################################################################################
-              MONTE CARLO PROBABILITY PROJECTIONS                                 
-#####################################################################################
+=====================================================================================
+              MONTE CARLO PROBABILITY PROJECTIONS                            
+=====================================================================================
                Country Group  1st %  2nd %  3rd %  4th %  Advance %  Win %  Finals %  Semis %  Quarters %  R16 %  R32 %
              Argentina     J  100.0    0.0    0.0    0.0      100.0  26.59     20.68    19.49       22.77  10.46    0.0
                 France     I  100.0    0.0    0.0    0.0      100.0  24.38     16.90    30.74       13.83  14.15    0.0
@@ -72,7 +67,7 @@ Bosnia and Herzegovina     B    0.0    0.0  100.0    0.0      100.0   0.00      
                 Jordan     J    0.0    0.0    0.0  100.0        0.0   0.00      0.00     0.00        0.00   0.00    0.0
             Uzbekistan     K    0.0    0.0    0.0  100.0        0.0   0.00      0.00     0.00        0.00   0.00    0.0
                 Panama     L    0.0    0.0    0.0  100.0        0.0   0.00      0.00     0.00        0.00   0.00    0.0
-#####################################################################################
-              POST-PROCESSING: 3RD PLACE WITH 4 POINTS ANALYSIS               
-#####################################################################################
+=====================================================================================
+             POST-PROCESSING: 3RD PLACE WITH 4 POINTS ANALYSIS               
+=====================================================================================
 3 points: 100.00%
